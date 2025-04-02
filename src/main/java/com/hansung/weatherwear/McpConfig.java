@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class McpServerConfig {
+public class McpConfig {
 
     @Bean
     public ToolCallbackProvider weatherTools(WeatherService weatherService) {
